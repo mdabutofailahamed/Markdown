@@ -26,10 +26,11 @@ $$
      + second sub-item
 
      <img src="./images/brown-cat1.png" width="225" >
-<p>library(tidyverse)  
+     
+library(tidyverse)  
 library(mdsr)
 SAT_2010 %>% ggplot(aes(write,..density..)) + geom_histogram() +
-geom_density() + theme_minimal() + labs(title = "SAT Writing Scores")</p>
+geom_density() + theme_minimal() + labs(title = "SAT Writing Scores")
 
  # Table with alignment  
  You can align text in the columns to the left, right, or center by adding a colon (:) to the left, right, or on both side of the hyphens within the header row.
@@ -56,6 +57,7 @@ Licensed under the MIT License. You may not use this file except in compliance w
 License. Use and/or modification of this code outside of 6.S191 must reference:
 
 > © MIT 6.S191: Introduction to Deep Learning
+> 
 > http://introtodeeplearning.com/
 <br/>
 
